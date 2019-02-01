@@ -9,20 +9,21 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/css/mdb.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
-        <!-- JQuery -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <!-- MDB core JavaScript -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/js/mdb.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/js/mdb.min.js"></script>
 </head>
 
-<body>
+<body>  
     <header>
         <!-- Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
@@ -62,7 +63,7 @@
                             <a class="nav-link" href="#">Customer Center</a>
                         </li>
                         <!-- Dropdown Menu-->
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navDropDownMenu" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">About Us</a>
                             <div class="dropdown-menu dropdown-primary" aria-labelledby="navDropDownMenu">
@@ -70,7 +71,7 @@
                                 <a class="dropdown-item" href="#">Action 2</a>
                                 <a class="dropdown-item" href="#">Action 3</a>
                             </div>
-                        </li>
+                        </li> -->
 
                     </ul>
 
@@ -79,88 +80,82 @@
                             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                         </div>
                     </form>
+                    <ul>
+                        <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
         <!-- Mask-->
         <div id="sliderZ" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                        <li data-target="#sliderZ" data-slide-to="0" class="active"></li>
-                        <li data-target="#sliderZ" data-slide-to="1"></li>
-                        <li data-target="#sliderZ" data-slide-to="2"></li>
-                      </ol>
+            <ol class="carousel-indicators">
+                <li data-target="#sliderZ" data-slide-to="0" class="active"></li>
+                <li data-target="#sliderZ" data-slide-to="1"></li>
+                <li data-target="#sliderZ" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
-              <!-- <div class="carousel-item active">
+                <!-- <div class="carousel-item active">
                     <a href="slider1">
                 <img class="d-block w-100" src="images/giphy1.gif" height="500" width="50" alt="First slide">
                 </a>
               </div> -->
-              <div class="carousel-item active">
-                    <a href="slider2">
-                <img class="d-block w-100" src="images/giphy2.gif" height="500" width="100" alt="Second slide">
-                </a>
-              </div>
-              <div class="carousel-item">
-                    <a href="slider3">
-                <img class="d-block w-100" src="images/giphy3.gif" height="500" width="100" alt="Third slide">
-                </a>
-              </div>
-              <div class="carousel-item">
-                    <a href="slider4">
-                <img class="d-block w-100" src="images/giphy4.gif" height="500" width="100" alt="Third slide">
-                </a>
-              </div>
-              <div class="carousel-item">
-                    <a href="slider5">
-                <img class="d-block w-100" src="images/giphy5.gif" height="500" width="100" alt="Third slide">
-                </a>
-              </div>
+                <div class="carousel-item active">
+                    <a href="slider2.html">
+                        <img class="d-block w-100" src="images/giphy2.gif" height="500" width="100" alt="Second slide">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="slider3.html">
+                        <img class="d-block w-100" src="images/giphy3.gif" height="500" width="100" alt="Third slide">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="slider4.html">
+                        <img class="d-block w-100" src="images/giphy4.gif" height="500" width="100" alt="Third slide">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="slider5.html">
+                        <img class="d-block w-100" src="images/giphy5.gif" height="500" width="100" alt="Third slide">
+                    </a>
+                </div>
             </div>
-          </div>
-          <a class="carousel-control-prev" href="#sliderZ" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#sliderZ" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+            <a class="carousel-control-prev" href="#sliderZ" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#sliderZ" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        </div>
+
     </header>
-
-
+    
     <main class="mt-5">
         <div class="container">
             <section id="best-features" class="text-center">
-                <h2 class="mb-5">Best Features</h2>
+                <h2 class="mb-5">Why Choose Ashworth Awards?</h2>
 
                 <div class="row d-flex justify-content-center mb-4">
 
                     <div class="col-md-8">
-                        <p> This is the content for the Best Features</p>
+                            <div class="col-md-12 mb-1">
+                                    <i class="fas fa-camera-retro fa-4x"></i>
+                                    <h4 class="my-4">Experience</h4>
+                                    <p> For over 50 years Ashworth Awards has been helping race directors, event coordinators, coaches, industry leaders and many others with their recognition products and awards. By providing the highest quality manufacturing and materials, unbeatable pricing, custom designs and industry leading customer service we have created a seamless experience; assisting you in recognizing your event participants as well as acquiring the proper recognition and exposure you and your event deserve.</p>
+                                </div>                    </div>
+                    <div class="col-md-4">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjackiefernandezz%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
                     </div>
                 </div>
 
 
-                <div class="row">
-                    <div class="row">
-                        <div class="col-md-4 mb-1">
-                            <i class="fas fa-camera-retro fa-4x"></i>
-                            <h4 class="my-4">Experience</h4>
-                            <p> This is description of Experience in Grid Column of Best Features</p>
-
-                        </div>
-                        <div class="col-md-4 mb-1">
-                            <i class="fas fa-heart fa-4x"></i>
-                            <h4 class="my-4">Happiness</h4>
-                            <p> This is description of Happiness in Grid Column of Best Features</p>
-
-                        </div>
-                        <div class="col-md-4 mb-1">
-                            <i class="fas fa-bicycle fa-4x"></i>
-                            <h4 class="my-4">Adventure</h4>
-                            <p> This is the 3rd row for the content of Adventure in Best Features</p>
-                        </div>
-                    </div>
+                      
             </section>
 
             <hr class="my-5">
@@ -212,9 +207,11 @@
         </div>
 
     </main>
-
-
-
+    <!-- <div class="fb-page" data-href="https://www.facebook.com/jackiefernandezz/" data-tabs="timeline" data-small-header="false"
+        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/jackiefernandezz/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jackiefernandezz/">Jacqueline
+                Fernandez Fanclub</a></blockquote>
+    </div> -->
 
     <footer>
 
