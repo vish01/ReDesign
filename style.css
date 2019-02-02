@@ -2,7 +2,7 @@ html,
 body,
 header,
 #intro {
-    height: 100%;
+    height: auto;
 }
 #intro{
     background: url("nature.jpg")no-repeat center center fixed;
@@ -14,7 +14,6 @@ header,
 ul {
     margin-top: 10px;
     margin-right: -160px;
-	overflow: auto;
 }
 
 ul li {
